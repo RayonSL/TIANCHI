@@ -1,0 +1,236 @@
+2019-04-09 15:59:40] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+---------------------------------------------------------------------------+
+[2019-04-09 15:59:40] - INFO : | epoch |    mIOU    | bbox_mAP | segm_mAP |   1    |   2    |   3    |   4    |   5    |                                     fp                                    |
+[2019-04-09 15:59:40] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+---------------------------------------------------------------------------+
+[2019-04-09 15:59:40] - INFO : |   1   |   0.4016   |  0.4177  |  0.3188  | 0.3966 | 0.4032 | 0.4151 | 0.4769 | 0.3164 |  work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_1_mIOU_0.4016.pth |
+[2019-04-09 15:59:40] - INFO : |   2   |   0.4573   |  0.4770  |  0.3717  | 0.4494 | 0.4284 | 0.5365 | 0.4953 | 0.3770 |  work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_2_mIOU_0.4573.pth |
+[2019-04-09 15:59:40] - INFO : |   3   |   0.5243   |  0.5142  |  0.3973  | 0.5255 | 0.5404 | 0.5608 | 0.6060 | 0.3886 |  work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_3_mIOU_0.5243.pth |
+[2019-04-09 15:59:40] - INFO : |   4   |   0.5469   |  0.5394  |  0.4141  | 0.6342 | 0.5069 | 0.5633 | 0.6023 | 0.4275 |  work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_4_mIOU_0.5469.pth |
+[2019-04-09 15:59:40] - INFO : |   5   |   0.5981   |  0.5568  |  0.4371  | 0.6940 | 0.5392 | 0.6094 | 0.6645 | 0.4836 |  work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_5_mIOU_0.5981.pth |
+[2019-04-09 15:59:40] - INFO : |   6   |   0.5728   |  0.5555  |  0.4341  | 0.6620 | 0.5779 | 0.5700 | 0.5826 | 0.4715 |  work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_6_mIOU_0.5728.pth |
+[2019-04-09 15:59:40] - INFO : |   7   |   0.5644   |  0.5751  |  0.4508  | 0.4900 | 0.5891 | 0.6343 | 0.5943 | 0.5142 |  work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_7_mIOU_0.5644.pth |
+[2019-04-09 15:59:40] - INFO : |   8   |   0.5762   |  0.5821  |  0.4518  | 0.5753 | 0.5800 | 0.6672 | 0.5466 | 0.5119 |  work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_8_mIOU_0.5762.pth |
+[2019-04-09 15:59:40] - INFO : |   9   |   0.5982   |  0.5849  |  0.4588  | 0.6665 | 0.5791 | 0.6210 | 0.6041 | 0.5200 |  work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_9_mIOU_0.5982.pth |
+[2019-04-09 15:59:40] - INFO : |   10  |   0.5477   |  0.5773  |  0.4607  | 0.6900 | 0.6047 | 0.5086 | 0.4605 | 0.4747 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_10_mIOU_0.5477.pth |
+[2019-04-09 15:59:40] - INFO : |   11  |   0.6075   |  0.5947  |  0.4685  | 0.7263 | 0.5772 | 0.5208 | 0.6894 | 0.5238 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_11_mIOU_0.6075.pth |
+[2019-04-09 15:59:40] - INFO : |   12  |   0.5815   |  0.6008  |  0.4631  | 0.6007 | 0.6013 | 0.6773 | 0.5028 | 0.5254 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_12_mIOU_0.5815.pth |
+[2019-04-09 15:59:40] - INFO : |   13  |   0.6010   |  0.6007  |  0.4719  | 0.7025 | 0.5762 | 0.5807 | 0.5980 | 0.5474 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_13_mIOU_0.6010.pth |
+[2019-04-09 15:59:40] - INFO : |   14  |   0.6219   |  0.6024  |  0.4791  | 0.7210 | 0.5993 | 0.6527 | 0.5949 | 0.5417 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_14_mIOU_0.6219.pth |
+[2019-04-09 15:59:40] - INFO : |   15  |   0.6535   |  0.6117  |  0.4795  | 0.7742 | 0.5914 | 0.6592 | 0.6669 | 0.5757 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_15_mIOU_0.6535.pth |
+[2019-04-09 15:59:40] - INFO : |   16  |   0.6456   |  0.6037  |  0.4765  | 0.7859 | 0.5982 | 0.6475 | 0.6356 | 0.5610 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_16_mIOU_0.6456.pth |
+[2019-04-09 15:59:40] - INFO : |   17  |   0.6633   |  0.6335  |  0.4969  | 0.7929 | 0.6233 | 0.6897 | 0.6181 | 0.5925 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_17_mIOU_0.6633.pth |
+[2019-04-09 15:59:40] - INFO : |   18  |   0.6642   |  0.6392  |  0.5046  | 0.7709 | 0.6232 | 0.6841 | 0.6440 | 0.5986 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_18_mIOU_0.6642.pth |
+[2019-04-09 15:59:40] - INFO : |   19  |   0.6584   |  0.6396  |  0.5033  | 0.7259 | 0.6054 | 0.6981 | 0.6562 | 0.6067 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_19_mIOU_0.6584.pth |
+[2019-04-09 15:59:40] - INFO : |   20  |   0.6693   |  0.6382  |  0.5023  | 0.7828 | 0.6291 | 0.6978 | 0.6265 | 0.6102 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_20_mIOU_0.6693.pth |
+[2019-04-09 15:59:40] - INFO : |   21  |   0.6724   |  0.6402  |  0.5069  | 0.7935 | 0.6262 | 0.6959 | 0.6350 | 0.6111 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_21_mIOU_0.6724.pth |
+[2019-04-09 15:59:40] - INFO : |   22  |   0.7259   |  0.6461  |  0.5086  | 0.8506 | 0.6399 | 0.7173 | 0.7976 | 0.6243 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_22_mIOU_0.7259.pth |
+[2019-04-09 15:59:40] - INFO : |   23  |   0.7288   |  0.6460  |  0.5089  | 0.8631 | 0.6356 | 0.7215 | 0.8007 | 0.6234 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_23_mIOU_0.7288.pth |
+[2019-04-09 15:59:40] - INFO : |   24  |   0.7291   |  0.6465  |  0.5069  | 0.8556 | 0.6372 | 0.7332 | 0.7993 | 0.6204 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_24_mIOU_0.7291.pth |
+[2019-04-09 15:59:40] - INFO : |   25  |   0.7298   |  0.6480  |  0.5081  | 0.8562 | 0.6379 | 0.7301 | 0.7981 | 0.6266 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_25_mIOU_0.7298.pth |
+[2019-04-09 15:59:40] - INFO : |   26  |   0.7320   |  0.6482  |  0.5092  | 0.8628 | 0.6390 | 0.7288 | 0.8027 | 0.6265 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_26_mIOU_0.7320.pth |
+[2019-04-09 15:59:40] - INFO : |   27  | 0.7325 (*) |  0.6487  |  0.5097  | 0.8620 | 0.6402 | 0.7307 | 0.8029 | 0.6266 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_27_mIOU_0.7325.pth |
+[2019-04-09 15:59:40] - INFO : |   28  |   0.7310   |  0.6484  |  0.5090  | 0.8633 | 0.6394 | 0.7270 | 0.7982 | 0.6270 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_28_mIOU_0.7310.pth |
+[2019-04-09 15:59:40] - INFO : |   29  |   0.7298   |  0.6480  |  0.5086  | 0.8635 | 0.6357 | 0.7264 | 0.7970 | 0.6264 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_29_mIOU_0.7298.pth |
+[2019-04-09 15:59:40] - INFO : |   30  |   0.7301   |  0.6481  |  0.5088  | 0.8635 | 0.6372 | 0.7242 | 0.7989 | 0.6266 | work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_30_mIOU_0.7301.pth |
+[2019-04-09 15:59:40] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+---------------------------------------------------------------------------+
+
+
+
+with_round1_normal_and_train(0.7318)
+[2019-04-11 07:01:30] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+-----------------------------------------------------------------------------------+
+[2019-04-11 07:01:30] - INFO : | epoch |    mIOU    | bbox_mAP | segm_mAP |   1    |   2    |   3    |   4    |   5    |                                         fp                                        |
+[2019-04-11 07:01:30] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+-----------------------------------------------------------------------------------+
+[2019-04-11 07:01:30] - INFO : |   1   |   0.3914   |  0.4450  |  0.3272  | 0.3829 | 0.4005 | 0.4059 | 0.4503 | 0.3176 |  work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_1_mIOU_0.3914.pth |
+[2019-04-11 07:01:30] - INFO : |   2   |   0.4833   |  0.5079  |  0.3740  | 0.4464 | 0.5260 | 0.5101 | 0.5629 | 0.3711 |  work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_2_mIOU_0.4833.pth |
+[2019-04-11 07:01:30] - INFO : |   3   |   0.4976   |  0.5249  |  0.3878  | 0.7017 | 0.5298 | 0.4949 | 0.3806 | 0.3811 |  work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_3_mIOU_0.4976.pth |
+[2019-04-11 07:01:30] - INFO : |   4   |   0.5666   |  0.5564  |  0.4182  | 0.7167 | 0.5770 | 0.5778 | 0.5247 | 0.4366 |  work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_4_mIOU_0.5666.pth |
+[2019-04-11 07:01:30] - INFO : |   5   |   0.5036   |  0.5457  |  0.4077  | 0.5375 | 0.5313 | 0.4938 | 0.5545 | 0.4010 |  work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_5_mIOU_0.5036.pth |
+[2019-04-11 07:01:30] - INFO : |   6   |   0.5621   |  0.5857  |  0.4274  | 0.7147 | 0.5573 | 0.5729 | 0.4727 | 0.4928 |  work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_6_mIOU_0.5621.pth |
+[2019-04-11 07:01:30] - INFO : |   7   |   0.6156   |  0.6011  |  0.4496  | 0.7713 | 0.6147 | 0.6234 | 0.5849 | 0.4836 |  work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_7_mIOU_0.6156.pth |
+[2019-04-11 07:01:30] - INFO : |   8   |   0.6404   |  0.6120  |  0.4429  | 0.7669 | 0.6106 | 0.6276 | 0.6962 | 0.5004 |  work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_8_mIOU_0.6404.pth |
+[2019-04-11 07:01:30] - INFO : |   9   |   0.6081   |  0.6102  |  0.4210  | 0.7656 | 0.5962 | 0.5872 | 0.6430 | 0.4486 |  work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_9_mIOU_0.6081.pth |
+[2019-04-11 07:01:30] - INFO : |   10  |   0.6161   |  0.6189  |  0.4575  | 0.7724 | 0.6119 | 0.6358 | 0.5532 | 0.5075 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_10_mIOU_0.6161.pth |
+[2019-04-11 07:01:30] - INFO : |   11  |   0.5833   |  0.6253  |  0.4647  | 0.5939 | 0.5908 | 0.6502 | 0.5451 | 0.5365 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_11_mIOU_0.5833.pth |
+[2019-04-11 07:01:30] - INFO : |   12  |   0.5653   |  0.6173  |  0.4575  | 0.7360 | 0.5917 | 0.5395 | 0.4437 | 0.5158 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_12_mIOU_0.5653.pth |
+[2019-04-11 07:01:30] - INFO : |   13  |   0.6173   |  0.6320  |  0.4495  | 0.7852 | 0.5709 | 0.6086 | 0.5868 | 0.5352 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_13_mIOU_0.6173.pth |
+[2019-04-11 07:01:30] - INFO : |   14  |   0.6400   |  0.6350  |  0.4633  | 0.8187 | 0.6282 | 0.6318 | 0.5872 | 0.5340 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_14_mIOU_0.6400.pth |
+[2019-04-11 07:01:30] - INFO : |   15  |   0.6420   |  0.6460  |  0.4793  | 0.7574 | 0.6122 | 0.6396 | 0.6886 | 0.5123 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_15_mIOU_0.6420.pth |
+[2019-04-11 07:01:30] - INFO : |   16  |   0.5907   |  0.6416  |  0.4643  | 0.6741 | 0.5798 | 0.6283 | 0.5663 | 0.5053 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_16_mIOU_0.5907.pth |
+[2019-04-11 07:01:30] - INFO : |   17  |   0.6560   |  0.6718  |  0.4886  | 0.7315 | 0.6354 | 0.6656 | 0.6760 | 0.5717 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_17_mIOU_0.6560.pth |
+[2019-04-11 07:01:30] - INFO : |   18  |   0.6660   |  0.6758  |  0.4852  | 0.7810 | 0.6375 | 0.6750 | 0.6777 | 0.5589 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_18_mIOU_0.6660.pth |
+[2019-04-11 07:01:30] - INFO : |   19  |   0.6754   |  0.6796  |  0.4884  | 0.8048 | 0.6388 | 0.6772 | 0.6869 | 0.5691 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_19_mIOU_0.6754.pth |
+[2019-04-11 07:01:30] - INFO : |   20  |   0.6760   |  0.6788  |  0.4931  | 0.8091 | 0.6338 | 0.6802 | 0.6888 | 0.5678 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_20_mIOU_0.6760.pth |
+[2019-04-11 07:01:30] - INFO : |   21  |   0.6796   |  0.6804  |  0.4933  | 0.8199 | 0.6462 | 0.6677 | 0.6986 | 0.5658 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_21_mIOU_0.6796.pth |
+[2019-04-11 07:01:30] - INFO : |   22  |   0.7257   |  0.6851  |  0.4939  | 0.8586 | 0.6495 | 0.7299 | 0.7961 | 0.5943 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_22_mIOU_0.7257.pth |
+[2019-04-11 07:01:30] - INFO : |   23  |   0.7259   |  0.6876  |  0.4939  | 0.8538 | 0.6516 | 0.7315 | 0.7925 | 0.6000 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_23_mIOU_0.7259.pth |
+[2019-04-11 07:01:30] - INFO : |   24  |   0.7241   |  0.6885  |  0.4980  | 0.8579 | 0.6453 | 0.7260 | 0.7962 | 0.5952 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_24_mIOU_0.7241.pth |
+[2019-04-11 07:01:30] - INFO : |   25  |   0.7279   |  0.6888  |  0.4974  | 0.8557 | 0.6499 | 0.7305 | 0.8005 | 0.6028 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_25_mIOU_0.7279.pth |
+[2019-04-11 07:01:30] - INFO : |   26  |   0.7296   |  0.6900  |  0.4979  | 0.8584 | 0.6519 | 0.7304 | 0.8009 | 0.6065 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_26_mIOU_0.7296.pth |
+[2019-04-11 07:01:30] - INFO : |   27  |   0.7311   |  0.6905  |  0.4987  | 0.8656 | 0.6526 | 0.7284 | 0.8008 | 0.6080 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_27_mIOU_0.7311.pth |
+[2019-04-11 07:01:30] - INFO : |   28  |   0.7306   |  0.6902  |  0.4985  | 0.8652 | 0.6524 | 0.7277 | 0.8015 | 0.6061 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_28_mIOU_0.7306.pth |
+[2019-04-11 07:01:30] - INFO : |   29  |   0.7309   |  0.6908  |  0.4983  | 0.8660 | 0.6528 | 0.7304 | 0.8015 | 0.6037 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_29_mIOU_0.7309.pth |
+[2019-04-11 07:01:30] - INFO : |   30  |   0.7311   |  0.6915  |  0.4997  | 0.8661 | 0.6513 | 0.7312 | 0.8017 | 0.6054 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_30_mIOU_0.7311.pth |
+[2019-04-11 07:01:30] - INFO : |   31  |   0.7309   |  0.6914  |  0.5002  | 0.8660 | 0.6526 | 0.7316 | 0.8010 | 0.6030 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_31_mIOU_0.7309.pth |
+[2019-04-11 07:01:30] - INFO : |   32  |   0.7308   |  0.6907  |  0.4988  | 0.8657 | 0.6529 | 0.7309 | 0.8020 | 0.6024 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_32_mIOU_0.7308.pth |
+[2019-04-11 07:01:30] - INFO : |   33  |   0.7293   |  0.6914  |  0.4993  | 0.8599 | 0.6527 | 0.7301 | 0.8006 | 0.6033 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_33_mIOU_0.7293.pth |
+[2019-04-11 07:01:30] - INFO : |   34  |   0.7307   |  0.6921  |  0.5003  | 0.8654 | 0.6523 | 0.7316 | 0.8007 | 0.6037 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_34_mIOU_0.7307.pth |
+[2019-04-11 07:01:30] - INFO : |   35  |   0.7293   |  0.6924  |  0.5004  | 0.8595 | 0.6540 | 0.7306 | 0.8003 | 0.6021 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_35_mIOU_0.7293.pth |
+[2019-04-11 07:01:30] - INFO : |   36  |   0.7295   |  0.6920  |  0.5015  | 0.8596 | 0.6538 | 0.7312 | 0.8004 | 0.6025 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_36_mIOU_0.7295.pth |
+[2019-04-11 07:01:30] - INFO : |   37  |   0.7310   |  0.6921  |  0.5012  | 0.8667 | 0.6538 | 0.7311 | 0.8005 | 0.6031 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_37_mIOU_0.7310.pth |
+[2019-04-11 07:01:30] - INFO : |   38  |   0.7309   |  0.6919  |  0.5010  | 0.8663 | 0.6537 | 0.7312 | 0.8005 | 0.6031 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_38_mIOU_0.7309.pth |
+[2019-04-11 07:01:30] - INFO : |   39  |   0.7309   |  0.6919  |  0.5011  | 0.8657 | 0.6538 | 0.7315 | 0.8006 | 0.6032 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_39_mIOU_0.7309.pth |
+[2019-04-11 07:01:30] - INFO : |   40  | 0.7318 (*) |  0.6919  |  0.5010  | 0.8685 | 0.6535 | 0.7313 | 0.8021 | 0.6035 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_40_mIOU_0.7318.pth |
+[2019-04-11 07:01:30] - INFO : |   41  |   0.7311   |  0.6921  |  0.5012  | 0.8658 | 0.6533 | 0.7312 | 0.8020 | 0.6033 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_41_mIOU_0.7311.pth |
+[2019-04-11 07:01:30] - INFO : |   42  |   0.7310   |  0.6924  |  0.5011  | 0.8661 | 0.6531 | 0.7311 | 0.8019 | 0.6030 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_42_mIOU_0.7310.pth |
+[2019-04-11 07:01:30] - INFO : |   43  |   0.7311   |  0.6923  |  0.5006  | 0.8684 | 0.6525 | 0.7312 | 0.8008 | 0.6028 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_43_mIOU_0.7311.pth |
+[2019-04-11 07:01:30] - INFO : |   44  |   0.7309   |  0.6924  |  0.5007  | 0.8656 | 0.6524 | 0.7317 | 0.8015 | 0.6031 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_44_mIOU_0.7309.pth |
+[2019-04-11 07:01:30] - INFO : |   45  |   0.7311   |  0.6922  |  0.5009  | 0.8654 | 0.6532 | 0.7316 | 0.8018 | 0.6033 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_45_mIOU_0.7311.pth |
+[2019-04-11 07:01:30] - INFO : |   46  |   0.7311   |  0.6922  |  0.5011  | 0.8654 | 0.6533 | 0.7317 | 0.8018 | 0.6033 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_46_mIOU_0.7311.pth |
+[2019-04-11 07:01:30] - INFO : |   47  |   0.7311   |  0.6921  |  0.5009  | 0.8654 | 0.6533 | 0.7317 | 0.8018 | 0.6033 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_47_mIOU_0.7311.pth |
+[2019-04-11 07:01:30] - INFO : |   48  |   0.7311   |  0.6921  |  0.5010  | 0.8655 | 0.6533 | 0.7317 | 0.8018 | 0.6032 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_48_mIOU_0.7311.pth |
+[2019-04-11 07:01:30] - INFO : |   49  |   0.7310   |  0.6922  |  0.5010  | 0.8654 | 0.6532 | 0.7316 | 0.8018 | 0.6031 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_49_mIOU_0.7310.pth |
+[2019-04-11 07:01:30] - INFO : |   50  |   0.7311   |  0.6922  |  0.5011  | 0.8654 | 0.6533 | 0.7317 | 0.8018 | 0.6031 | work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_50_mIOU_0.7311.pth |
+[2019-04-11 07:01:30] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+-----------------------------------------------------------------------------------+
+
+
+
+round1_train_weight_0.5
+[2019-04-11 21:14:50] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+------------------------------------------------------------------------------+
+[2019-04-11 21:14:50] - INFO : | epoch |    mIOU    | bbox_mAP | segm_mAP |   1    |   2    |   3    |   4    |   5    |                                      fp                                      |
+[2019-04-11 21:14:50] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+------------------------------------------------------------------------------+
+[2019-04-11 21:14:50] - INFO : |   1   |   0.3607   |  0.4291  |  0.3277  | 0.3280 | 0.4065 | 0.4347 | 0.3353 | 0.2991 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_1_mIOU_0.3607.pth  |
+[2019-04-11 21:14:50] - INFO : |   2   |   0.4764   |  0.4961  |  0.3767  | 0.6195 | 0.5214 | 0.4870 | 0.3696 | 0.3846 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_2_mIOU_0.4764.pth  |
+[2019-04-11 21:14:50] - INFO : |   3   |   0.5526   |  0.5313  |  0.3881  | 0.7016 | 0.5343 | 0.5113 | 0.6201 | 0.3959 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_3_mIOU_0.5526.pth  |
+[2019-04-11 21:14:50] - INFO : |   4   |   0.5547   |  0.5646  |  0.4204  | 0.7236 | 0.5264 | 0.4482 | 0.6315 | 0.4438 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_4_mIOU_0.5547.pth  |
+[2019-04-11 21:14:50] - INFO : |   5   |   0.5428   |  0.5627  |  0.4279  | 0.6638 | 0.5701 | 0.5072 | 0.5113 | 0.4615 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_5_mIOU_0.5428.pth  |
+[2019-04-11 21:14:50] - INFO : |   6   |   0.5081   |  0.5781  |  0.4317  | 0.5962 | 0.5139 | 0.4402 | 0.5405 | 0.4497 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_6_mIOU_0.5081.pth  |
+[2019-04-11 21:14:50] - INFO : |   7   |   0.5968   |  0.6000  |  0.4521  | 0.7764 | 0.5974 | 0.6260 | 0.5272 | 0.4573 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_7_mIOU_0.5968.pth  |
+[2019-04-11 21:14:50] - INFO : |   8   |   0.6171   |  0.6029  |  0.4614  | 0.8023 | 0.5809 | 0.6027 | 0.6068 | 0.4929 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_8_mIOU_0.6171.pth  |
+[2019-04-11 21:14:50] - INFO : |   9   |   0.5763   |  0.6186  |  0.4680  | 0.7667 | 0.5556 | 0.6527 | 0.3938 | 0.5128 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_9_mIOU_0.5763.pth  |
+[2019-04-11 21:14:50] - INFO : |   10  |   0.5293   |  0.6201  |  0.4702  | 0.4605 | 0.4130 | 0.6281 | 0.6035 | 0.5413 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_10_mIOU_0.5293.pth |
+[2019-04-11 21:14:50] - INFO : |   11  |   0.5906   |  0.6321  |  0.4788  | 0.6511 | 0.6032 | 0.6269 | 0.5772 | 0.4947 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_11_mIOU_0.5906.pth |
+[2019-04-11 21:14:50] - INFO : |   12  |   0.6137   |  0.6271  |  0.4754  | 0.7989 | 0.6046 | 0.6087 | 0.5110 | 0.5453 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_12_mIOU_0.6137.pth |
+[2019-04-11 21:14:50] - INFO : |   13  |   0.6246   |  0.6345  |  0.4827  | 0.6808 | 0.6043 | 0.6345 | 0.6603 | 0.5430 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_13_mIOU_0.6246.pth |
+[2019-04-11 21:14:50] - INFO : |   14  |   0.6227   |  0.6365  |  0.4802  | 0.7266 | 0.6084 | 0.6301 | 0.6259 | 0.5224 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_14_mIOU_0.6227.pth |
+[2019-04-11 21:14:50] - INFO : |   15  |   0.6397   |  0.6445  |  0.4941  | 0.8076 | 0.5917 | 0.6129 | 0.6244 | 0.5618 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_15_mIOU_0.6397.pth |
+[2019-04-11 21:14:50] - INFO : |   16  |   0.6541   |  0.6506  |  0.4950  | 0.7121 | 0.6235 | 0.7217 | 0.6697 | 0.5436 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_16_mIOU_0.6541.pth |
+[2019-04-11 21:14:50] - INFO : |   17  |   0.6883   |  0.6718  |  0.5108  | 0.8250 | 0.6371 | 0.7126 | 0.6780 | 0.5891 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_17_mIOU_0.6883.pth |
+[2019-04-11 21:14:50] - INFO : |   18  |   0.7008   |  0.6762  |  0.5178  | 0.8396 | 0.6328 | 0.7180 | 0.7198 | 0.5937 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_18_mIOU_0.7008.pth |
+[2019-04-11 21:14:50] - INFO : |   19  |   0.7028   |  0.6766  |  0.5192  | 0.8303 | 0.6443 | 0.7174 | 0.7207 | 0.6014 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_19_mIOU_0.7028.pth |
+[2019-04-11 21:14:50] - INFO : |   20  |   0.6962   |  0.6758  |  0.5172  | 0.8356 | 0.6379 | 0.7285 | 0.6806 | 0.5983 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_20_mIOU_0.6962.pth |
+[2019-04-11 21:14:50] - INFO : |   21  |   0.7065   |  0.6821  |  0.5206  | 0.8263 | 0.6381 | 0.7399 | 0.7292 | 0.5990 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_21_mIOU_0.7065.pth |
+[2019-04-11 21:14:50] - INFO : |   22  |   0.7297   |  0.6798  |  0.5169  | 0.8496 | 0.6409 | 0.7544 | 0.7972 | 0.6061 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_22_mIOU_0.7297.pth |
+[2019-04-11 21:14:50] - INFO : |   23  |   0.7335   |  0.6826  |  0.5195  | 0.8534 | 0.6468 | 0.7504 | 0.8021 | 0.6150 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_23_mIOU_0.7335.pth |
+[2019-04-11 21:14:50] - INFO : |   24  |   0.7349   |  0.6867  |  0.5212  | 0.8499 | 0.6490 | 0.7514 | 0.8018 | 0.6224 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_24_mIOU_0.7349.pth |
+[2019-04-11 21:14:50] - INFO : |   25  | 0.7355 (*) |  0.6871  |  0.5221  | 0.8513 | 0.6461 | 0.7545 | 0.8053 | 0.6206 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_25_mIOU_0.7355.pth |
+[2019-04-11 21:14:50] - INFO : |   26  |   0.7343   |  0.6870  |  0.5227  | 0.8511 | 0.6470 | 0.7536 | 0.8038 | 0.6158 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_26_mIOU_0.7343.pth |
+[2019-04-11 21:14:50] - INFO : |   27  |   0.7343   |  0.6875  |  0.5236  | 0.8514 | 0.6450 | 0.7530 | 0.8052 | 0.6168 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_27_mIOU_0.7343.pth |
+[2019-04-11 21:14:50] - INFO : |   28  |   0.7342   |  0.6876  |  0.5236  | 0.8524 | 0.6457 | 0.7529 | 0.8048 | 0.6150 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_28_mIOU_0.7342.pth |
+[2019-04-11 21:14:50] - INFO : |   29  |   0.7339   |  0.6871  |  0.5229  | 0.8510 | 0.6469 | 0.7527 | 0.8034 | 0.6154 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_29_mIOU_0.7339.pth |
+[2019-04-11 21:14:50] - INFO : |   30  |   0.7345   |  0.6885  |  0.5235  | 0.8523 | 0.6461 | 0.7534 | 0.8043 | 0.6167 | work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_30_mIOU_0.7345.pth |
+[2019-04-11 21:14:50] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+------------------------------------------------------------------------------+
+
+
+
+[2019-04-16 09:00:42] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+--------------------------------------------------------------------------------+
+[2019-04-16 09:00:42] - INFO : | epoch |    mIOU    | bbox_mAP | segm_mAP |   1    |   2    |   3    |   4    |   5    |                                       fp                                       |
+[2019-04-16 09:00:42] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+--------------------------------------------------------------------------------+
+[2019-04-16 09:00:42] - INFO : |   1   |   0.4734   |  0.4497  |  0.3354  | 0.5136 | 0.4552 | 0.4585 | 0.5620 | 0.3775 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_1_mIOU_0.4734.pth  |
+[2019-04-16 09:00:42] - INFO : |   2   |   0.5361   |  0.5355  |  0.4039  | 0.6544 | 0.4954 | 0.5436 | 0.5662 | 0.4206 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_2_mIOU_0.5361.pth  |
+[2019-04-16 09:00:42] - INFO : |   3   |   0.4832   |  0.5479  |  0.4235  | 0.4966 | 0.5272 | 0.4976 | 0.4317 | 0.4628 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_3_mIOU_0.4832.pth  |
+[2019-04-16 09:00:42] - INFO : |   4   |   0.6251   |  0.5688  |  0.4375  | 0.7662 | 0.5830 | 0.6337 | 0.6727 | 0.4697 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_4_mIOU_0.6251.pth  |
+[2019-04-16 09:00:42] - INFO : |   5   |   0.5793   |  0.5862  |  0.4444  | 0.7638 | 0.5452 | 0.5663 | 0.5348 | 0.4866 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_5_mIOU_0.5793.pth  |
+[2019-04-16 09:00:42] - INFO : |   6   |   0.5932   |  0.5920  |  0.4501  | 0.6957 | 0.5722 | 0.6493 | 0.5569 | 0.4921 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_6_mIOU_0.5932.pth  |
+[2019-04-16 09:00:42] - INFO : |   7   |   0.5727   |  0.6052  |  0.4535  | 0.6012 | 0.5803 | 0.5674 | 0.5901 | 0.5247 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_7_mIOU_0.5727.pth  |
+[2019-04-16 09:00:42] - INFO : |   8   |   0.6420   |  0.6163  |  0.4759  | 0.7703 | 0.6053 | 0.6838 | 0.6046 | 0.5460 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_8_mIOU_0.6420.pth  |
+[2019-04-16 09:00:42] - INFO : |   9   |   0.6319   |  0.6204  |  0.4684  | 0.7812 | 0.5772 | 0.6545 | 0.6386 | 0.5080 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_9_mIOU_0.6319.pth  |
+[2019-04-16 09:00:42] - INFO : |   10  |   0.6239   |  0.6271  |  0.4831  | 0.7484 | 0.5939 | 0.6428 | 0.6242 | 0.5102 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_10_mIOU_0.6239.pth |
+[2019-04-16 09:00:42] - INFO : |   11  |   0.6666   |  0.6351  |  0.4835  | 0.7875 | 0.6079 | 0.7018 | 0.6732 | 0.5624 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_11_mIOU_0.6666.pth |
+[2019-04-16 09:00:42] - INFO : |   12  |   0.6480   |  0.6436  |  0.4884  | 0.7330 | 0.5970 | 0.6677 | 0.6850 | 0.5574 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_12_mIOU_0.6480.pth |
+[2019-04-16 09:00:42] - INFO : |   13  |   0.6647   |  0.6442  |  0.4919  | 0.7552 | 0.5785 | 0.6949 | 0.7353 | 0.5597 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_13_mIOU_0.6647.pth |
+[2019-04-16 09:00:42] - INFO : |   14  |   0.6600   |  0.6425  |  0.4904  | 0.7214 | 0.6167 | 0.6975 | 0.7384 | 0.5258 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_14_mIOU_0.6600.pth |
+[2019-04-16 09:00:42] - INFO : |   15  |   0.6508   |  0.6456  |  0.4901  | 0.7897 | 0.5956 | 0.6669 | 0.6145 | 0.5872 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_15_mIOU_0.6508.pth |
+[2019-04-16 09:00:42] - INFO : |   16  |   0.6573   |  0.6495  |  0.4939  | 0.6973 | 0.5977 | 0.7033 | 0.7240 | 0.5639 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_16_mIOU_0.6573.pth |
+[2019-04-16 09:00:42] - INFO : |   17  |   0.7145   |  0.6835  |  0.5216  | 0.8325 | 0.6331 | 0.7291 | 0.7631 | 0.6148 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_17_mIOU_0.7145.pth |
+[2019-04-16 09:00:42] - INFO : |   18  |   0.7229   |  0.6874  |  0.5216  | 0.8343 | 0.6375 | 0.7424 | 0.7759 | 0.6245 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_18_mIOU_0.7229.pth |
+[2019-04-16 09:00:42] - INFO : |   19  |   0.7181   |  0.6896  |  0.5246  | 0.8085 | 0.6415 | 0.7437 | 0.7697 | 0.6272 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_19_mIOU_0.7181.pth |
+[2019-04-16 09:00:42] - INFO : |   20  |   0.7243   |  0.6874  |  0.5210  | 0.8397 | 0.6359 | 0.7418 | 0.7724 | 0.6316 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_20_mIOU_0.7243.pth |
+[2019-04-16 09:00:42] - INFO : |   21  |   0.7242   |  0.6914  |  0.5246  | 0.8285 | 0.6388 | 0.7489 | 0.7691 | 0.6359 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_21_mIOU_0.7242.pth |
+[2019-04-16 09:00:42] - INFO : |   22  |   0.7448   |  0.6929  |  0.5283  | 0.8710 | 0.6463 | 0.7596 | 0.8040 | 0.6431 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_22_mIOU_0.7448.pth |
+[2019-04-16 09:00:42] - INFO : |   23  |   0.7467   |  0.6950  |  0.5269  | 0.8756 | 0.6438 | 0.7640 | 0.8048 | 0.6455 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_23_mIOU_0.7467.pth |
+[2019-04-16 09:00:42] - INFO : |   24  |   0.7470   |  0.6958  |  0.5288  | 0.8677 | 0.6490 | 0.7693 | 0.8043 | 0.6448 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_24_mIOU_0.7470.pth |
+[2019-04-16 09:00:42] - INFO : |   25  |   0.7486   |  0.6974  |  0.5294  | 0.8755 | 0.6465 | 0.7707 | 0.8054 | 0.6449 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_25_mIOU_0.7486.pth |
+[2019-04-16 09:00:42] - INFO : |   26  |   0.7488   |  0.6981  |  0.5299  | 0.8758 | 0.6487 | 0.7704 | 0.8047 | 0.6446 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_26_mIOU_0.7488.pth |
+[2019-04-16 09:00:42] - INFO : |   27  |   0.7484   |  0.6987  |  0.5304  | 0.8756 | 0.6472 | 0.7691 | 0.8043 | 0.6457 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_27_mIOU_0.7484.pth |
+[2019-04-16 09:00:42] - INFO : |   28  |   0.7489   |  0.6984  |  0.5295  | 0.8763 | 0.6482 | 0.7688 | 0.8042 | 0.6470 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_28_mIOU_0.7489.pth |
+[2019-04-16 09:00:42] - INFO : |   29  |   0.7482   |  0.6984  |  0.5303  | 0.8758 | 0.6458 | 0.7680 | 0.8046 | 0.6465 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_29_mIOU_0.7482.pth |
+[2019-04-16 09:00:42] - INFO : |   30  |   0.7489   |  0.6987  |  0.5298  | 0.8762 | 0.6456 | 0.7697 | 0.8065 | 0.6464 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_30_mIOU_0.7489.pth |
+[2019-04-16 09:00:42] - INFO : |   31  |   0.7484   |  0.6994  |  0.5305  | 0.8769 | 0.6476 | 0.7672 | 0.8044 | 0.6461 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_31_mIOU_0.7484.pth |
+[2019-04-16 09:00:42] - INFO : |   32  |   0.7490   |  0.6998  |  0.5308  | 0.8767 | 0.6468 | 0.7681 | 0.8073 | 0.6461 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_32_mIOU_0.7490.pth |
+[2019-04-16 09:00:42] - INFO : |   33  |   0.7491   |  0.7001  |  0.5312  | 0.8767 | 0.6476 | 0.7681 | 0.8068 | 0.6465 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_33_mIOU_0.7491.pth |
+[2019-04-16 09:00:42] - INFO : |   34  |   0.7491   |  0.6997  |  0.5314  | 0.8762 | 0.6482 | 0.7683 | 0.8068 | 0.6461 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_34_mIOU_0.7491.pth |
+[2019-04-16 09:00:42] - INFO : |   35  |   0.7490   |  0.7001  |  0.5309  | 0.8756 | 0.6475 | 0.7681 | 0.8078 | 0.6459 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_35_mIOU_0.7490.pth |
+[2019-04-16 09:00:42] - INFO : |   36  | 0.7501 (*) |  0.6996  |  0.5311  | 0.8758 | 0.6490 | 0.7712 | 0.8083 | 0.6461 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_36_mIOU_0.7501.pth |
+[2019-04-16 09:00:42] - INFO : |   37  |   0.7493   |  0.7000  |  0.5309  | 0.8763 | 0.6479 | 0.7689 | 0.8077 | 0.6460 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_37_mIOU_0.7493.pth |
+[2019-04-16 09:00:42] - INFO : |   38  |   0.7494   |  0.6996  |  0.5308  | 0.8761 | 0.6472 | 0.7690 | 0.8074 | 0.6472 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_38_mIOU_0.7494.pth |
+[2019-04-16 09:00:42] - INFO : |   39  |   0.7493   |  0.7002  |  0.5314  | 0.8769 | 0.6460 | 0.7688 | 0.8075 | 0.6474 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_39_mIOU_0.7493.pth |
+[2019-04-16 09:00:42] - INFO : |   40  |   0.7495   |  0.7013  |  0.5320  | 0.8762 | 0.6477 | 0.7677 | 0.8081 | 0.6476 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_40_mIOU_0.7495.pth |
+[2019-04-16 09:00:42] - INFO : |   41  |   0.7494   |  0.7011  |  0.5306  | 0.8761 | 0.6479 | 0.7685 | 0.8074 | 0.6469 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_41_mIOU_0.7494.pth |
+[2019-04-16 09:00:42] - INFO : |   42  |   0.7495   |  0.7006  |  0.5306  | 0.8763 | 0.6488 | 0.7679 | 0.8077 | 0.6470 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_42_mIOU_0.7495.pth |
+[2019-04-16 09:00:42] - INFO : |   43  |   0.7493   |  0.7012  |  0.5314  | 0.8765 | 0.6470 | 0.7672 | 0.8081 | 0.6478 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_43_mIOU_0.7493.pth |
+[2019-04-16 09:00:42] - INFO : |   44  |   0.7496   |  0.7011  |  0.5313  | 0.8767 | 0.6473 | 0.7673 | 0.8083 | 0.6483 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_44_mIOU_0.7496.pth |
+[2019-04-16 09:00:42] - INFO : |   45  |   0.7494   |  0.7015  |  0.5315  | 0.8764 | 0.6477 | 0.7676 | 0.8081 | 0.6473 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_45_mIOU_0.7494.pth |
+[2019-04-16 09:00:42] - INFO : |   46  |   0.7492   |  0.7015  |  0.5315  | 0.8766 | 0.6475 | 0.7674 | 0.8073 | 0.6475 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_46_mIOU_0.7492.pth |
+[2019-04-16 09:00:42] - INFO : |   47  |   0.7494   |  0.7021  |  0.5311  | 0.8762 | 0.6484 | 0.7673 | 0.8078 | 0.6473 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_47_mIOU_0.7494.pth |
+[2019-04-16 09:00:42] - INFO : |   48  |   0.7490   |  0.7008  |  0.5313  | 0.8758 | 0.6479 | 0.7675 | 0.8073 | 0.6465 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_48_mIOU_0.7490.pth |
+[2019-04-16 09:00:42] - INFO : |   49  |   0.7492   |  0.7018  |  0.5324  | 0.8771 | 0.6482 | 0.7676 | 0.8079 | 0.6454 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_49_mIOU_0.7492.pth |
+[2019-04-16 09:00:42] - INFO : |   50  |   0.7491   |  0.7017  |  0.5325  | 0.8765 | 0.6479 | 0.7669 | 0.8077 | 0.6467 | work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_50_mIOU_0.7491.pth |
+
+
+
+
+cosline_lr
+[2019-04-16 19:10:51] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+-----------------------------------------------------------------+
+[2019-04-16 19:10:51] - INFO : | epoch |    mIOU    | bbox_mAP | segm_mAP |   1    |   2    |   3    |   4    |   5    |                                fp                               |
+[2019-04-16 19:10:51] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+-----------------------------------------------------------------+
+[2019-04-16 19:10:51] - INFO : |   1   |   0.4396   |  0.4432  |  0.3343  | 0.4723 | 0.4333 | 0.4018 | 0.5534 | 0.3371 |  work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_1_mIOU_0.4396.pth |
+[2019-04-16 19:10:51] - INFO : |   2   |   0.4805   |  0.5127  |  0.3852  | 0.4718 | 0.4930 | 0.4555 | 0.6253 | 0.3569 |  work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_2_mIOU_0.4805.pth |
+[2019-04-16 19:10:51] - INFO : |   3   |   0.5247   |  0.5494  |  0.4097  | 0.5133 | 0.5008 | 0.5719 | 0.6589 | 0.3787 |  work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_3_mIOU_0.5247.pth |
+[2019-04-16 19:10:51] - INFO : |   4   |   0.6169   |  0.5775  |  0.4325  | 0.7874 | 0.5695 | 0.6025 | 0.6680 | 0.4573 |  work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_4_mIOU_0.6169.pth |
+[2019-04-16 19:10:51] - INFO : |   5   |   0.6210   |  0.5840  |  0.4485  | 0.7615 | 0.5806 | 0.6007 | 0.6750 | 0.4871 |  work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_5_mIOU_0.6210.pth |
+[2019-04-16 19:10:51] - INFO : |   6   |   0.6055   |  0.5997  |  0.4516  | 0.7196 | 0.5330 | 0.6471 | 0.6604 | 0.4675 |  work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_6_mIOU_0.6055.pth |
+[2019-04-16 19:10:51] - INFO : |   7   |   0.6480   |  0.6195  |  0.4654  | 0.7936 | 0.5721 | 0.6664 | 0.6597 | 0.5480 |  work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_7_mIOU_0.6480.pth |
+[2019-04-16 19:10:51] - INFO : |   8   |   0.6450   |  0.6197  |  0.4627  | 0.7907 | 0.5923 | 0.5998 | 0.6981 | 0.5441 |  work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_8_mIOU_0.6450.pth |
+[2019-04-16 19:10:51] - INFO : |   9   |   0.5610   |  0.6136  |  0.4661  | 0.6494 | 0.5233 | 0.5616 | 0.5608 | 0.5100 |  work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_9_mIOU_0.5610.pth |
+[2019-04-16 19:10:51] - INFO : |   10  |   0.6286   |  0.6086  |  0.4637  | 0.6944 | 0.5717 | 0.6531 | 0.7000 | 0.5239 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_10_mIOU_0.6286.pth |
+[2019-04-16 19:10:51] - INFO : |   11  |   0.6798   |  0.6412  |  0.4840  | 0.8448 | 0.5729 | 0.6824 | 0.7490 | 0.5501 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_11_mIOU_0.6798.pth |
+[2019-04-16 19:10:51] - INFO : |   12  |   0.6670   |  0.6494  |  0.4980  | 0.7353 | 0.5995 | 0.7065 | 0.7071 | 0.5865 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_12_mIOU_0.6670.pth |
+[2019-04-16 19:10:51] - INFO : |   13  |   0.6358   |  0.6444  |  0.4881  | 0.6317 | 0.6022 | 0.6818 | 0.6937 | 0.5697 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_13_mIOU_0.6358.pth |
+[2019-04-16 19:10:51] - INFO : |   14  |   0.6546   |  0.6497  |  0.4948  | 0.7551 | 0.6019 | 0.6820 | 0.6981 | 0.5361 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_14_mIOU_0.6546.pth |
+[2019-04-16 19:10:51] - INFO : |   15  |   0.6613   |  0.6604  |  0.4956  | 0.7808 | 0.6002 | 0.6428 | 0.6904 | 0.5922 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_15_mIOU_0.6613.pth |
+[2019-04-16 19:10:51] - INFO : |   16  |   0.6757   |  0.6637  |  0.5148  | 0.7710 | 0.6293 | 0.6928 | 0.7078 | 0.5778 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_16_mIOU_0.6757.pth |
+[2019-04-16 19:10:51] - INFO : |   17  |   0.6401   |  0.6631  |  0.5072  | 0.6561 | 0.6218 | 0.6375 | 0.6822 | 0.6029 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_17_mIOU_0.6401.pth |
+[2019-04-16 19:10:51] - INFO : |   18  |   0.7103   |  0.6720  |  0.5081  | 0.8310 | 0.6254 | 0.7212 | 0.7638 | 0.6103 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_18_mIOU_0.7103.pth |
+[2019-04-16 19:10:51] - INFO : |   19  |   0.6994   |  0.6739  |  0.5022  | 0.8135 | 0.6166 | 0.7235 | 0.7383 | 0.6054 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_19_mIOU_0.6994.pth |
+[2019-04-16 19:10:51] - INFO : |   20  |   0.7106   |  0.6767  |  0.5145  | 0.8328 | 0.6319 | 0.7292 | 0.7534 | 0.6057 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_20_mIOU_0.7106.pth |
+[2019-04-16 19:10:51] - INFO : |   21  |   0.7151   |  0.6811  |  0.5155  | 0.8351 | 0.6360 | 0.7181 | 0.7771 | 0.6091 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_21_mIOU_0.7151.pth |
+[2019-04-16 19:10:51] - INFO : |   22  |   0.7422   |  0.6946  |  0.5246  | 0.8553 | 0.6492 | 0.7534 | 0.8129 | 0.6404 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_22_mIOU_0.7422.pth |
+[2019-04-16 19:10:51] - INFO : |   23  |   0.7435   |  0.6979  |  0.5328  | 0.8547 | 0.6464 | 0.7643 | 0.8092 | 0.6431 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_23_mIOU_0.7435.pth |
+[2019-04-16 19:10:51] - INFO : |   24  |   0.7488   |  0.6973  |  0.5335  | 0.8758 | 0.6509 | 0.7612 | 0.8140 | 0.6419 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_24_mIOU_0.7488.pth |
+[2019-04-16 19:10:51] - INFO : |   25  |   0.7432   |  0.6956  |  0.5314  | 0.8688 | 0.6488 | 0.7642 | 0.8073 | 0.6268 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_25_mIOU_0.7432.pth |
+[2019-04-16 19:10:51] - INFO : |   26  |   0.7455   |  0.7019  |  0.5368  | 0.8760 | 0.6495 | 0.7578 | 0.8142 | 0.6300 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_26_mIOU_0.7455.pth |
+[2019-04-16 19:10:51] - INFO : |   27  |   0.7486   |  0.6999  |  0.5361  | 0.8687 | 0.6586 | 0.7642 | 0.8112 | 0.6402 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_27_mIOU_0.7486.pth |
+[2019-04-16 19:10:51] - INFO : |   28  |   0.7478   |  0.7013  |  0.5348  | 0.8713 | 0.6420 | 0.7705 | 0.8138 | 0.6412 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_28_mIOU_0.7478.pth |
+[2019-04-16 19:10:51] - INFO : |   29  | 0.7546 (*) |  0.7058  |  0.5435  | 0.8786 | 0.6585 | 0.7744 | 0.8101 | 0.6512 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_29_mIOU_0.7546.pth |
+[2019-04-16 19:10:51] - INFO : |   30  |   0.7488   |  0.7040  |  0.5362  | 0.8686 | 0.6512 | 0.7663 | 0.8124 | 0.6458 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_30_mIOU_0.7488.pth |
+[2019-04-16 19:10:51] - INFO : |   31  |   0.7468   |  0.7036  |  0.5386  | 0.8704 | 0.6514 | 0.7617 | 0.8186 | 0.6321 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_31_mIOU_0.7468.pth |
+[2019-04-16 19:10:51] - INFO : |   32  |   0.7530   |  0.7073  |  0.5395  | 0.8815 | 0.6537 | 0.7686 | 0.8240 | 0.6374 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_32_mIOU_0.7530.pth |
+[2019-04-16 19:10:51] - INFO : |   33  |   0.7490   |  0.7042  |  0.5385  | 0.8746 | 0.6513 | 0.7645 | 0.8156 | 0.6390 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_33_mIOU_0.7490.pth |
+[2019-04-16 19:10:51] - INFO : |   34  |   0.7519   |  0.7076  |  0.5423  | 0.8781 | 0.6526 | 0.7657 | 0.8125 | 0.6509 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_34_mIOU_0.7519.pth |
+[2019-04-16 19:10:51] - INFO : |   35  |   0.7515   |  0.7087  |  0.5429  | 0.8715 | 0.6556 | 0.7690 | 0.8140 | 0.6475 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_35_mIOU_0.7515.pth |
+[2019-04-16 19:10:51] - INFO : |   36  |   0.7498   |  0.7052  |  0.5351  | 0.8885 | 0.6436 | 0.7660 | 0.8122 | 0.6387 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_36_mIOU_0.7498.pth |
+[2019-04-16 19:10:51] - INFO : |   37  |   0.7498   |  0.7093  |  0.5421  | 0.8686 | 0.6516 | 0.7632 | 0.8219 | 0.6437 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_37_mIOU_0.7498.pth |
+[2019-04-16 19:10:51] - INFO : |   38  |   0.7516   |  0.7113  |  0.5389  | 0.8707 | 0.6581 | 0.7608 | 0.8161 | 0.6522 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_38_mIOU_0.7516.pth |
+[2019-04-16 19:10:51] - INFO : |   39  |   0.7514   |  0.7088  |  0.5417  | 0.8725 | 0.6576 | 0.7635 | 0.8155 | 0.6480 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_39_mIOU_0.7514.pth |
+[2019-04-16 19:10:51] - INFO : |   40  |   0.7519   |  0.7116  |  0.5408  | 0.8786 | 0.6551 | 0.7674 | 0.8148 | 0.6435 | work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_40_mIOU_0.7519.pth |
+[2019-04-16 19:10:51] - INFO : +-------+------------+----------+----------+--------+--------+--------+--------+--------+-----------------------------------------------------------------+
+

@@ -1,0 +1,165 @@
+4-6 22:23
+round2_baseline
+3 nodes, 9 gpus
+val: |   22  | 0.6131 (*) |  0.6114  |  0.4793  | 0.7366 | 0.5559 | 0.6324 | 0.5899 | 0.5504
+model: work_dir/CascadeRCNN/ResNeXt/round2_baseline/epoch_22_mIOU_0.6131.pth
+log: work_dir/CascadeRCNN/ResNeXt/round2_baseline/04-06_20:16:18_CascadeRCNN_ResNeXt_round2_baseline.log
+
+
+
+
+
+4-7 19:03
+normal_with_mixup
+3 nodes, 9 gpus
+val: |   20  | 0.6649 (*) |  0.6448  |  0.5064  | 0.8110 | 0.6135 | 0.6621 | 0.6416 | 0.5962 |
+log: work_dir/CascadeRCNN/ResNeXt/normal_with_mixup/04-07_14:27:25_CascadeRCNN_ResNeXt_normal_with_mixup.log
+model: work_dir/CascadeRCNN/ResNeXt/normal_with_mixup/epoch_20_mIOU_0.6649.pth
+
+
+
+
+4-8 09:54
+train_with_round1_normal
+3 nodes, 9 gpus
+val: 1005/1005, 3.6 task/s, elapsed: 280s
+val: (softnms iou_thr=0.8)|   23  | 0.6992 (*) |  0.6501  |  0.5142  | 0.7763 | 0.6275 | 0.7405 | 0.7235 | 0.6279 |
+val: (softnms iou_thr=0.5)        | 0.6940 (*) |  0.6173  |  0.5011  | 0.7779 | 0.6137 | 0.7405 | 0.7229 | 0.6150 |
+log: work_dir/CascadeRCNN/ResNeXt/train_with_round1_normal/04-07_22:53:56_CascadeRCNN_ResNeXt_train_with_round1_normal.log
+model: work_dir/CascadeRCNN/ResNeXt/train_with_round1_normal/epoch_23_mIOU_0.6992.pth
+
+
+
+
+multi_gpu test benchmark
+1 gpu:                  1005/1005, 3.0 task/s, elapsed: 335s
+3 gpus(1 proc per gpu): 1005/1005, 7.4 task/s, elapsed: 135s
+3 gpus(2 proc per gpu): 1005/1005, 10.1 task/s, elapsed: 100s
+3 gpus(3 proc per gpu): 1005/1005, 11.2 task/s, elapsed: 89s(risk to out of memory)
+2 gpus(3 proc per gpu): 1005/1005, 8.0 task/s, elapsed: 126s
+
+
+
+
+4-8 14:53
+size_1000_2_per_gpu
+1000x1000, 2 images per gpu
+3 nodes, 9 gpus
+val: |   24  | 0.6607 (*) |  0.5988  |  0.4630  | 0.7561 | 0.6022 | 0.6843 | 0.6875 | 0.5733 |
+log: work_dir/CascadeRCNN/ResNeXt/size_1000_2_per_gpu/04-08_11:06:08_CascadeRCNN_ResNeXt_size_1000_2_per_gpu.log
+model: work_dir/CascadeRCNN/ResNeXt/size_1000_2_per_gpu/epoch_24_mIOU_0.6607.pth
+
+
+
+
+4-8 22:33
+train_with_round1_normal_resnet50
+3 nodes, 9 gpus
+val: |   24  | 0.7036 (*) |  0.6423  |  0.5060  | 0.8293 | 0.6325 | 0.7213 | 0.7149 | 0.6202 |
+log: work_dir/CascadeRCNN/ResNet/train_with_round1_normal_resnet50/04-08_16:41:38_CascadeRCNN_ResNet_train_with_round1_normal_resnet50.log
+model: work_dir/CascadeRCNN/ResNet/train_with_round1_normal_resnet50/epoch_24_mIOU_0.7036.pth
+
+
+
+
+4-9 08:39
+size_1000_batch_per_gpu_2
+use resnet50, 1000x1000 image size, 2 images per gpu
+Time cost: 3:24:49
+3 nodes, 9 gpus
+val: |   28  | 0.6951 (*) |  0.6273  |  0.4914  | 0.8258 | 0.6251 | 0.6970 | 0.7309 | 0.5967 |
+log: work_dir/CascadeRCNN/ResNet/size_1000_batch_per_gpu_2/04-08_22:52:26_CascadeRCNN_ResNet_size_1000_batch_per_gpu_2.log
+model: work_dir/CascadeRCNN/ResNet/size_1000_batch_per_gpu_2/epoch_28_mIOU_0.6951.pth
+
+
+
+
+4-9 16:12 (2019-04-10 11:46:00  0.7233)
+normal_may_not_mixup
+Time cost: 4:48:58
+3 nodes, 9 gpus
+val: 1005/1005, 15.2 task/s, elapsed: 66s
+val: |   27  | 0.7325 (*) |  0.6487  |  0.5097  | 0.8620 | 0.6402 | 0.7307 | 0.8029 | 0.6266 |
+val: work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/val/val_04-10_20:59_CascadeRCNN_ResNet_normal_may_not_mixup_mIOU_0.7325.json
+test: 1500/1500, 15.7 task/s, elapsed: 96s
+test: work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/test/test_04-10_21:02_CascadeRCNN_ResNet_normal_may_not_mixup.json
+log: work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/04-09_11:09:06_CascadeRCNN_ResNet_normal_may_not_mixup.log
+model: work_dir/CascadeRCNN/ResNet/normal_may_not_mixup/epoch_27_mIOU_0.7325.pth
+
+
+
+
+4-11 08:27
+with_round1_normal_and_train
+Time cost: 8:37:36
+3 nodes, 9 gpus
+val: |   40  | 0.7318 (*) |  0.6919  |  0.5010  | 0.8685 | 0.6535 | 0.7313 | 0.8021 | 0.6035 |
+log: work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/04-10_22:22:47_CascadeRCNN_ResNet_with_round1_normal_and_train.log
+models: work_dir/CascadeRCNN/ResNet/with_round1_normal_and_train/epoch_40_mIOU_0.7318.pth
+
+
+
+4-11 21:20
+round1_train_weight_0.5
+3 nodes, 9 gpus
+val: |   25  | 0.7355 (*) |  0.6871  |  0.5221  | 0.8513 | 0.6461 | 0.7545 | 0.8053 | 0.6206 |
+log: work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/04-11_14:06:47_CascadeRCNN_ResNet_round1_train_weight_0.5.log
+models: work_dir/CascadeRCNN/ResNet/round1_train_weight_0.5/epoch_25_mIOU_0.7355.pth
+
+
+
+4-12 07：38
+category_id_weight_mixup_10epoch
+Time cost: 6:29:44
+3 nodes 9 gpus
+val： |   27  | 0.7306 (*) |  0.6793  |  0.5209  | 0.8577 | 0.6506 | 0.7362 | 0.8033 | 0.6053 |
+models： work_dir/CascadeRCNN/ResNet/category_id_weight_mixup_10epoch/epoch_27_mIOU_0.7306.pth
+log： work_dir/CascadeRCNN/ResNet/category_id_weight_mixup_10epoch/04-11_21:31:10_CascadeRCNN_ResNet_category_id_weight_mixup_10epoch.log
+
+
+
+4-12 17:05
+resnext101
+Time cost: 8:50:23
+3 nodes, 9 gpus
+val: |   28  | 0.7470 (*) |  0.7023  |  0.5405  | 0.8752 | 0.6575 | 0.7517 | 0.8079 | 0.6427 |
+log: work_dir/CascadeRCNN/ResNeXt/resnext101/04-12_07:44:52_CascadeRCNN_ResNeXt_resnext101.log
+model: work_dir/CascadeRCNN/ResNeXt/resnext101/epoch_28_mIOU_0.7470.pth
+
+
+
+4-14 13:01
+rotate_0.5
+Time cost: 6:52:05
+3 nodes, 9 gpus
+val: |   27  | 0.7318 (*) |  0.6781  |  0.5183  | 0.8518 | 0.6445 | 0.7500 | 0.8016 | 0.6112 |
+log: work_dir/CascadeRCNN/ResNet/rotate_0.5/04-13_16:22:52_CascadeRCNN_ResNet_rotate_0.5.log
+model: work_dir/CascadeRCNN/ResNet/rotate_0.5/epoch_27_mIOU_0.7318.pth
+
+
+
+4-14 13:02
+more_epochs(rotate_0.5)
+3 nodes, 9 gpus
+val: |   50  | 0.7340 (*) |  0.6803  |  0.5195  | 0.8573 | 0.6440 | 0.7444 | 0.8084 | 0.6157 |
+log: work_dir/CascadeRCNN/ResNet/more_epochs/04-13_23:28:26_CascadeRCNN_ResNet_more_epochs.log
+model: work_dir/CascadeRCNN/ResNet/more_epochs/epoch_50_mIOU_0.7340.pth
+
+
+
+4-16 09:02
+dcn_resnet101_more_epochs
+3 nodes, 9 gpus
+val: |   36  | 0.7501 (*) |  0.6996  |  0.5311  | 0.8758 | 0.6490 | 0.7712 | 0.8083 | 0.6461 |
+log: work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/04-15_16:09:06_CascadeRCNN_ResNet_dcn_resnet101_more_epochs.log
+model: work_dir/CascadeRCNN/ResNet/dcn_resnet101_more_epochs/epoch_36_mIOU_0.7501.pth
+
+
+
+4-16 19:14
+cosline_lr
+4 nodes, 12 gpus
+val: |   29  | 0.7546 (*) |  0.7058  |  0.5435  | 0.8786 | 0.6585 | 0.7744 | 0.8101 | 0.6512 |
+log: work_dir/CascadeRCNN/ResNet/cosline_lr/04-16_09:19:19_CascadeRCNN_ResNet_cosline_lr.log
+model: work_dir/CascadeRCNN/ResNet/cosline_lr/epoch_29_mIOU_0.7546.pth
+
